@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #0b2239;
+}
+.ul-navbar {
+  position: relative;
+  float: right;
+  margin: 30px 10px;
+  word-spacing: 30px;
+}
+.ul-navbar li {
+  font-size: 1.5rem;
+  font-weight: 600;
+  list-style: none;
+  display: inline;
+}
+.ul-navbar a {
+  color: rgb(58, 58, 58);
+}
+.ul-navbar a:hover {
+  color: #08c18a;
+}
+.ul-navbar a:active {
+  text-decoration: underline;
+}
+.footer {
+  background-color: #0b2239;
+  width: 100%;
+  height: 50px;
+}
+.logo {
+  width: 200px;
+  height: 72px;
+  margin: 10px 10px;
+}
+.main h1 {
+  color: #0b2239;
+  text-align: center;
+  margin-top: 20px;
+}
+.poza-profil {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  border-radius: 80px;
+  border: 3px solid #08c18a;
+}
+.container-about {
+  width: 100%;
+  height: 550px;
+  background-color: #08c18a;
+}
+.container-about h2 {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.container-about p {
+  padding-top: 30px;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0px 20px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  text-align: center;
+}
+.container-about h3 {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  padding: 30px;
+}
+.skills {
+  background-color: white;
+  border-radius: 15px;
+  width: 15%;
+  margin: auto auto;
+  border: 2px solid #0b2239;
+}
+.skills img {
+  padding-left: auto;
+  display: inline;
+  margin: 5px 12px;
+}
+.main p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+#love-word {
+  color: red;
+}
+#loop-word {
+  color: #08c18a;
+}
+.footer p {
+  padding-top: 10px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
