@@ -106,3 +106,19 @@ a:hover {
   font-size: 1.2rem;
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+  .container-about {
+    height: 900px;
+  }
+  .skills {
+    width: 15%;
+    display: block;
+  }
+  .skills img {
+    display: block;
+    flex-direction: column;
+  }
+  .hr-line {
+    width: 100%;
+  }
+}
